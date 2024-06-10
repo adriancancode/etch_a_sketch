@@ -1,0 +1,21 @@
+div.grid > div {
+    border: 5px;
+}
+#grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.grid-square {
+    border: 2px solid gray;
+    width: 150px;
+    height: 150px;
+    transition: background-color 0.25s;
+}
+.grid-square:hover {
+    background-color: black;
+}
+#grid-button {
+    margin: 10px;
+    width: 200px;
+}
